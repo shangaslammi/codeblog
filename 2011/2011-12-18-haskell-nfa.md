@@ -110,6 +110,10 @@ The final result form the `foldM` is the list of all possible states that we cou
 
 One more thing worth mentioning is that the state transition function can use some other monadic context besides the list monad. For example, in a recent Lambda-Saturday meet up, we implemented a [probability distribution monad][4] as an exercise, and used that to implement a [probabilistic automaton][5].
 
+<hr/>
+Sami Hangaslammi <[sami.hangaslammi@iki.fi](mailto://sami.hangaslammi@iki.fi)>
+
+
 [1]: http://en.wikipedia.org/wiki/Nondeterministic_finite-state_machine
 [2]: http://en.wikipedia.org/wiki/Fold_(higher-order_function)#Folds_on_lists
 [3]: http://en.wikipedia.org/wiki/Deterministic_finite_automaton

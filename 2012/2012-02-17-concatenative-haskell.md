@@ -368,6 +368,4 @@ While there aren't many practical uses for this kind of programming in Haskell, 
 All the code in this post can be found in [this gist](https://gist.github.com/1851086).
 
 <hr/>
-Sami Hangaslammi <[sami.hangaslammi@leonidasoy.fi](mailto://sami.hangaslammi@leonidasoy.fi)>
-
-Leonidas Oy <[http://leonidasoy.fi](http://leonidasoy.fi)>
+Sami Hangaslammi <[sami.hangaslammi@iki.fi](mailto://sami.hangaslammi@iki.fi)>

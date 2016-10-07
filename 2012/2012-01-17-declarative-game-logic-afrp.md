@@ -1,6 +1,6 @@
 # Purely Functional, Declarative Game Logic Using Reactive Programming
 
-In the [previous article](https://github.com/leonidas/codeblog/blob/master/2012/2012-01-08-streams-coroutines.md) I introduced the `Coroutine` data type. In this second part I will show how coroutines can be used to implement a fixed time-step reactive programming library and use that library for modeling a simple game. The code examples will require a [basic proficiency in reading Haskell code](http://learnyouahaskell.com/).
+In the [previous article](https://github.com/shangaslammi/codeblog/blob/master/2012/2012-01-08-streams-coroutines.md) I introduced the `Coroutine` data type. In this second part I will show how coroutines can be used to implement a fixed time-step reactive programming library and use that library for modeling a simple game. The code examples will require a [basic proficiency in reading Haskell code](http://learnyouahaskell.com/).
 
 ## Classical FRP
 
@@ -420,9 +420,6 @@ We have now covered all the building blocks that are required for a simple game 
 One important thing that we didn't cover yet is how to handle dynamic collections of game objects, where new objects with dynamic behaviour can be created mid-game and existing ones can disappear. These will be covered in the next article, along with a more complete example of game logic from a more complex game.
 
 <hr/>
-
-Sami Hangaslammi <[sami.hangaslammi@leonidasoy.fi](mailto://sami.hangaslammi@leonidasoy.fi)>
-
-Leonidas Oy <[http://leonidasoy.fi](http://leonidasoy.fi)>
+Sami Hangaslammi <[sami.hangaslammi@iki.fi](mailto://sami.hangaslammi@iki.fi)>
 
 

@@ -431,6 +431,4 @@ The full source code for the game can be browsed at [GitHub](https://github.com/
 
 
 <hr/>
-Sami Hangaslammi <[sami.hangaslammi@leonidasoy.fi](mailto://sami.hangaslammi@leonidasoy.fi)>
-
-Leonidas Oy <[http://leonidasoy.fi](http://leonidasoy.fi)>
+Sami Hangaslammi <[sami.hangaslammi@iki.fi](mailto://sami.hangaslammi@iki.fi)>

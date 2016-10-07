@@ -130,8 +130,6 @@ All the code in this entry can be viewed and downloaded [here](https://gist.gith
 
 You can discuss this entry on [Reddit](http://www.reddit.com/r/haskell/comments/nsmq0/basic_tutorial_of_template_haskell/).
 
---
-Sami Hangaslammi <[sami.hangaslammi@leonidasoy.fi](mailto://sami.hangaslammi@leonidasoy.fi)>
-
-Leonidas Oy <[http://leonidasoy.fi](http://leonidasoy.fi)>
+<hr/>
+Sami Hangaslammi <[sami.hangaslammi@iki.fi](mailto://sami.hangaslammi@iki.fi)>
 

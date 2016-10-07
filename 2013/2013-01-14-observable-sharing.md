@@ -215,6 +215,4 @@ Finally, it's worth noting that `reifyGraph` doesn't in any way cache values fro
 
 
 <hr/>
-Sami Hangaslammi <[sami.hangaslammi@leonidasoy.fi](mailto://sami.hangaslammi@leonidasoy.fi)>
-
-Leonidas Oy <[http://leonidasoy.fi](http://leonidasoy.fi)>
+Sami Hangaslammi <[sami.hangaslammi@iki.fi](mailto://sami.hangaslammi@iki.fi)>

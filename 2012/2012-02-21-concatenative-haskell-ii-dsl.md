@@ -1,6 +1,6 @@
 # Concatenative Haskell Part II: Custom DSL Syntax Using QuasiQuotes
 
-In the [previous post](https://github.com/leonidas/codeblog/blob/master/2012/2012-02-17-concatenative-haskell.md) I introduced a way to emulate concatenative, stack based programming in Haskell code. The solution works, but it is a bit impractical to write
+In the [previous post](https://github.com/shangaslammi/codeblog/blob/master/2012/2012-02-17-concatenative-haskell.md) I introduced a way to emulate concatenative, stack based programming in Haskell code. The solution works, but it is a bit impractical to write
 
 ```haskell
 foo = push 1 >>> push 2 >>> (+)
@@ -22,7 +22,7 @@ So, I decided to tackle the problem in a completely different way using [Templat
 foo = [cc| 1 2 (+) |]
 ```
 
-Not quite as nice, but tolerable, and it'll be a good Template Haskell exercise. If you are completely new to Template Haskell, you can read my [`Basic Tutorial of Template Haskell`](https://github.com/leonidas/codeblog/blob/master/2011/2011-12-27-template-haskell.md) for a short introduction.
+Not quite as nice, but tolerable, and it'll be a good Template Haskell exercise. If you are completely new to Template Haskell, you can read my [`Basic Tutorial of Template Haskell`](https://github.com/shangaslammi/codeblog/blob/master/2011/2011-12-27-template-haskell.md) for a short introduction.
 
 
 ## Quasi-Quotes
@@ -77,7 +77,7 @@ specs = describe "Concatenative DSL" $
     ]
 ```
 
-The [`@?=`](http://hackage.haskell.org/packages/archive/HUnit/latest/doc/html/Test-HUnit-Base.html#v:-64--63--61-) operator is the equality assertion operator from HUnit, whereas  `:.` is the stack building operator from the [previous post](https://github.com/leonidas/codeblog/blob/master/2012/2012-02-17-concatenative-haskell.md).
+The [`@?=`](http://hackage.haskell.org/packages/archive/HUnit/latest/doc/html/Test-HUnit-Base.html#v:-64--63--61-) operator is the equality assertion operator from HUnit, whereas  `:.` is the stack building operator from the [previous post](https://github.com/shangaslammi/codeblog/blob/master/2012/2012-02-17-concatenative-haskell.md).
 
 The `cc` quasi-quotation evaluates to a Haskell function that takes in a stack and returns a (potentially) modified stack, and we test the function with an empty and non-empty stacks.
 
@@ -355,7 +355,7 @@ Now we can create lists to test the `foldl` function we defined earlier.
 
 ## Conclusion
 
-Hopefully this post has given you some ideas on how to utilize `haskell-src-exts` and `haskell-src-meta` to create DSLs that extend or mutate the base Haskell syntax. If you have any comments or questions, please feel free to message me via github's messaging system or [email](mailto://sami.hangaslammi@leonidasoy.fi).
+Hopefully this post has given you some ideas on how to utilize `haskell-src-exts` and `haskell-src-meta` to create DSLs that extend or mutate the base Haskell syntax. If you have any comments or questions, please feel free to message me via github's messaging system or [email](mailto://sami.hangaslammi@iki.fi).
 
 
 You can browse the code in [this github repo](https://github.com/shangaslammi/concat-dsl-qq).
@@ -365,6 +365,4 @@ You can also discuss this article on [Reddit](http://www.reddit.com/r/haskell/co
 
 
 <hr/>
-Sami Hangaslammi <[sami.hangaslammi@leonidasoy.fi](mailto://sami.hangaslammi@leonidasoy.fi)>
-
-Leonidas Oy <[http://leonidasoy.fi](http://leonidasoy.fi)>
+Sami Hangaslammi <[sami.hangaslammi@iki.fi](mailto://sami.hangaslammi@iki.fi)>

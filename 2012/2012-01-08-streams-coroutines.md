@@ -240,9 +240,7 @@ So what are these kind of coroutines good for? One interesting observation is th
 
 
 <hr/>
-Sami Hangaslammi <[sami.hangaslammi@leonidasoy.fi](mailto://sami.hangaslammi@leonidasoy.fi)>
-
-Leonidas Oy <[http://leonidasoy.fi](http://leonidasoy.fi)>
+Sami Hangaslammi <[sami.hangaslammi@iki.fi](mailto://sami.hangaslammi@iki.fi)>
 
 
 [1]: http://en.wikipedia.org/wiki/Stream_(computing)

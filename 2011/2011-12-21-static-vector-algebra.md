@@ -548,7 +548,5 @@ type instance AddT D1 b = Succ b
 type instance AddT (Succ a) b = Succ (AddT a b)
 ```
 
---
-Sami Hangaslammi <[sami.hangaslammi@leonidasoy.fi](mailto://sami.hangaslammi@leonidasoy.fi)>
-
-Leonidas Oy <[http://leonidasoy.fi](http://leonidasoy.fi)>
+<hr/>
+Sami Hangaslammi <[sami.hangaslammi@iki.fi](mailto://sami.hangaslammi@iki.fi)>
